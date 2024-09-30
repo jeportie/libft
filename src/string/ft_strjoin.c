@@ -6,11 +6,11 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 14:48:11 by jeportie          #+#    #+#             */
-/*   Updated: 2024/07/10 10:00:30 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/09/30 12:27:23 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -55,7 +55,7 @@ char	*ft_strjoin_free(char *s1, const char *s2)
 	free(s1);
 	return (joined_str);
 }
-
+/*
 char	*gc_strjoin(char const *s1, char const *s2)
 {
 	char	*joined_str;
@@ -75,4 +75,4 @@ char	*gc_strjoin(char const *s1, char const *s2)
 	ft_memcpy(joined_str + len1, s2, len2);
 	joined_str[total_len] = '\0';
 	return (joined_str);
-}
+}*/
