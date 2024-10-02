@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 14:12:45 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:20:07 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:14:50 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

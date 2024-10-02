@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 20:43:10 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:24:14 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:11:47 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 static int	ft_prepare_int(t_format_spec spec, long long content,
 		char **formatted_content, t_buffer *buf_info)

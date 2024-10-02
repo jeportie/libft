@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 00:35:52 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:18:46 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:06:41 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

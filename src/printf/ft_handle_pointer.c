@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 14:11:49 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:24:29 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:12:01 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 static int	ft_prepare_pointer(char **adresse, t_buffer *buf_info, void *ptr)
 {

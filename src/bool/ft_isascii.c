@@ -6,15 +6,19 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 18:04:15 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:17:26 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 08:49:22 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
-int	ft_isascii(int c)
+/*
+ * Check if the char is ASCII
+ */
+
+bool ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+		return (true);
+	return (false);
 }

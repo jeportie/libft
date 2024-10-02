@@ -6,18 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 11:15:32 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/22 11:17:35 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:01:09 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
-
-static int	ft_isspace(int c)
-{
-	if (c == ' ' || (c >= 9 && c <= 13))
-		return (1);
-	return (0);
-}
+#include "../../include/libft.h"
 
 static int	ft_issign(int c, int *sign)
 {

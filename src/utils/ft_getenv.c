@@ -6,11 +6,11 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 09:03:52 by jeportie          #+#    #+#             */
-/*   Updated: 2024/07/11 10:51:59 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:55:02 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 char	*ft_getenv(char **envp, const char *name)
 {

@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 11:47:54 by jeportie          #+#    #+#             */
-/*   Updated: 2024/07/24 14:16:40 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:14:01 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 static void	ft_free_memory(char **tab, size_t i)
 {

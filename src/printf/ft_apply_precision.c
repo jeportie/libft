@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/12 19:39:40 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:23:19 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:09:06 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 static int	ft_new_str(char **new_str, t_format_spec *spec, int total_len,
 		int is_negative)

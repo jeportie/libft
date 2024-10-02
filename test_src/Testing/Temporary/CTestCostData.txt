@@ -1,2 +1,0 @@
-test_ft_isalnum 1 0.0133739
----

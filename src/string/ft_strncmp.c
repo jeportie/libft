@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 17:49:37 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:20:55 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:52:51 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

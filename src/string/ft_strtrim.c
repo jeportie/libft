@@ -6,11 +6,11 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 15:22:47 by jeportie          #+#    #+#             */
-/*   Updated: 2024/03/21 11:21:19 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/02 09:53:53 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft.h"
+#include "../../include/libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

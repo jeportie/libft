@@ -1,4 +1,0 @@
-/root/projects/libft/test_src/CMakeFiles/test_ft_isalnum.dir
-/root/projects/libft/test_src/CMakeFiles/test.dir
-/root/projects/libft/test_src/CMakeFiles/edit_cache.dir
-/root/projects/libft/test_src/CMakeFiles/rebuild_cache.dir
