@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 20:21:37 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/10 20:21:54 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/10 20:26:12 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,35 @@ START_TEST(test_extreme_values) {
 END_TEST
 
 Suite *ft_isxdigit_suite(void) {
-    // Similar structure as previous suites
+    Suite *s;
+    TCase *tc_core;
+
+    s = suite_create("ft_isxdigit");
+    tc_core = tcase_create("Core");
+
+    tcase_add_test(tc_core, test_hex_digits_uppercase);
+    tcase_add_test(tc_core, test_hex_digits_lowercase);
+    tcase_add_test(tc_core, test_decimal_digits);
+    tcase_add_test(tc_core, test_non_hex_chars);
+    tcase_add_test(tc_core, test_boundary_values);
+    tcase_add_test(tc_core, test_extreme_values);
+    suite_add_tcase(s, tc_core);
+
+    return s;
 }
 
 int main(void) {
-    // Similar to the main function in the previous tests
+    int number_failed;
+    Suite *s;
+    SRunner *sr;
+
+    s = ft_isxdigit_suite();
+    sr = srunner_create(s);
+
+    srunner_run_all(sr, CK_NORMAL);
+    number_failed = srunner_ntests_failed(sr);
+    srunner_free(sr);
+
+    return (number_failed == 0) ? 0 : 1;
 }
 
