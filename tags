@@ -30,6 +30,28 @@ START_TEST	test_src/bool/test_ft_isalpha.c	/^START_TEST(test_ft_isalpha_edge_cas
 START_TEST	test_src/bool/test_ft_isalpha.c	/^START_TEST(test_ft_isalpha_lowercase)$/;"	f
 START_TEST	test_src/bool/test_ft_isalpha.c	/^START_TEST(test_ft_isalpha_non_alpha)$/;"	f
 START_TEST	test_src/bool/test_ft_isalpha.c	/^START_TEST(test_ft_isalpha_uppercase)$/;"	f
+START_TEST	test_src/bool/test_ft_isascii.c	/^START_TEST(test_boundary_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isascii.c	/^START_TEST(test_extreme_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isascii.c	/^START_TEST(test_non_ascii_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isascii.c	/^START_TEST(test_regular_ascii_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isdigit.c	/^START_TEST(test_boundary_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isdigit.c	/^START_TEST(test_digits) {$/;"	f
+START_TEST	test_src/bool/test_ft_isdigit.c	/^START_TEST(test_extreme_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isdigit.c	/^START_TEST(test_non_digits) {$/;"	f
+START_TEST	test_src/bool/test_ft_isprint.c	/^START_TEST(test_boundary_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isprint.c	/^START_TEST(test_extreme_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isprint.c	/^START_TEST(test_non_printable_chars) {$/;"	f
+START_TEST	test_src/bool/test_ft_isprint.c	/^START_TEST(test_printable_chars) {$/;"	f
+START_TEST	test_src/bool/test_ft_isspace.c	/^START_TEST(test_boundary_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isspace.c	/^START_TEST(test_extreme_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isspace.c	/^START_TEST(test_non_whitespace_chars) {$/;"	f
+START_TEST	test_src/bool/test_ft_isspace.c	/^START_TEST(test_whitespace_chars) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_boundary_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_decimal_digits) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_extreme_values) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_hex_digits_lowercase) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_hex_digits_uppercase) {$/;"	f
+START_TEST	test_src/bool/test_ft_isxdigit.c	/^START_TEST(test_non_hex_chars) {$/;"	f
 START_TEST	test_src/memory/test_ft_memset.c	/^START_TEST(test_entire_buffer)$/;"	f
 START_TEST	test_src/memory/test_ft_memset.c	/^START_TEST(test_large_size)$/;"	f
 START_TEST	test_src/memory/test_ft_memset.c	/^START_TEST(test_normal_behavior)$/;"	f
@@ -82,14 +104,19 @@ ft_isalnum	src/bool/ft_isalnum.c	/^bool	ft_isalnum(int c)$/;"	f
 ft_isalpha	src/bool/ft_isalpha.c	/^bool	ft_isalpha(int c)$/;"	f
 ft_isalpha_suite	test_src/bool/test_ft_isalpha.c	/^Suite *ft_isalpha_suite(void)$/;"	f
 ft_isascii	src/bool/ft_isascii.c	/^bool ft_isascii(int c)$/;"	f
+ft_isascii_suite	test_src/bool/test_ft_isascii.c	/^Suite *ft_isascii_suite(void) {$/;"	f
 ft_isconvert_spec	src/printf/ft_isconvert_spec.c	/^int	ft_isconvert_spec(char c)$/;"	f
 ft_isdigit	src/bool/ft_isdigit.c	/^bool ft_isdigit(int c)$/;"	f
+ft_isdigit_suite	test_src/bool/test_ft_isdigit.c	/^Suite *ft_isdigit_suite(void) {$/;"	f
 ft_isflag	src/printf/ft_isflag.c	/^int	ft_isflag(char c)$/;"	f
 ft_isprint	src/bool/ft_isprint.c	/^bool	ft_isprint(int c)$/;"	f
+ft_isprint_suite	test_src/bool/test_ft_isprint.c	/^Suite *ft_isprint_suite(void) {$/;"	f
 ft_issign	src/conversion/ft_atoi.c	/^static int	ft_issign(int c, int *sign)$/;"	f	file:
 ft_issign	src/conversion/ft_atol.c	/^static int	ft_issign(int c, int *sign)$/;"	f	file:
 ft_isspace	src/bool/ft_isspace.c	/^bool	ft_isspace(int c)$/;"	f
+ft_isspace_suite	test_src/bool/test_ft_isspace.c	/^Suite *ft_isspace_suite(void) {$/;"	f
 ft_isxdigit	src/bool/ft_isxdigit.c	/^bool	ft_isxdigit(int c)$/;"	f
+ft_isxdigit_suite	test_src/bool/test_ft_isxdigit.c	/^Suite *ft_isxdigit_suite(void) {$/;"	f
 ft_itoa	src/conversion/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
 ft_memchr	src/memory/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
 ft_memcmp	src/memory/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
@@ -144,6 +171,11 @@ index	include/libft.h	/^	int		index;$/;"	m	struct:s_buffer
 isalnum_suite	test_src/bool/test_ft_isalnum.c	/^Suite *isalnum_suite(void)$/;"	f
 main	test_src/bool/test_ft_isalnum.c	/^int main(void)$/;"	f
 main	test_src/bool/test_ft_isalpha.c	/^int main(void)$/;"	f
+main	test_src/bool/test_ft_isascii.c	/^int main(void) {$/;"	f
+main	test_src/bool/test_ft_isdigit.c	/^int main(void) {$/;"	f
+main	test_src/bool/test_ft_isprint.c	/^int main(void) {$/;"	f
+main	test_src/bool/test_ft_isspace.c	/^int main(void) {$/;"	f
+main	test_src/bool/test_ft_isxdigit.c	/^int main(void) {$/;"	f
 main	test_src/memory/test_ft_memset.c	/^int main(void)$/;"	f
 memset_suite	test_src/memory/test_ft_memset.c	/^Suite *memset_suite(void)$/;"	f
 nb_printed	include/libft.h	/^	int		nb_printed;$/;"	m	struct:s_buffer
