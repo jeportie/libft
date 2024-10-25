@@ -390,12 +390,12 @@ ft_check_pid	src/utils/ft_check_pid.c	/^void	ft_check_pid(int pid)$/;"	f
 ft_concat_path	src/utils/ft_find_cmd_path.c	/^static char	*ft_concat_path(char **paths, const char *cmd)$/;"	f	file:
 ft_convert_spec	src/printf/ft_printf.c	/^static int	ft_convert_spec(t_format_spec spec, va_list args,$/;"	f	file:
 ft_count_words	src/string/ft_split.c	/^size_t	ft_count_words(char *str, char c)$/;"	f
+ft_dprintf	src/printf/ft_printf.c	/^int	ft_dprintf(int fd, const char *format, ...)$/;"	f
 ft_extract	src/string/ft_split.c	/^static char	*ft_extract(const char **s, char c, char **tab, size_t i)$/;"	f	file:
 ft_fill_base	src/conversion/ft_ulltoa_base.c	/^static char	*ft_fill_base(unsigned long long nbr, int size, char *base,$/;"	f	file:
 ft_fill_base	src/conversion/ft_utoa_base.c	/^static char	*ft_fill_base(unsigned int nbr, int size, char *base, char *res)$/;"	f	file:
 ft_find_cmd_path	src/utils/ft_find_cmd_path.c	/^char	*ft_find_cmd_path(char **envp, const char *cmd)$/;"	f
 ft_find_end	src/printf/ft_parse_format.c	/^static char	*ft_find_end(const char *start, t_format_spec *spec)$/;"	f	file:
-ft_fprintf	src/printf/ft_printf.c	/^int	ft_fprintf(int fd, const char *format, ...)$/;"	f
 ft_free_memory	src/string/ft_split.c	/^static void	ft_free_memory(char **tab, size_t i)$/;"	f	file:
 ft_getenv	src/utils/ft_getenv.c	/^char	*ft_getenv(char **envp, const char *name)$/;"	f
 ft_handle_char	src/printf/ft_handle_char.c	/^void	ft_handle_char(t_format_spec spec, va_list args, t_buffer *buf_info)$/;"	f

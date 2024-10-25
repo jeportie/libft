@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 18:59:02 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/25 14:18:44 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/25 14:25:36 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -127,7 +127,7 @@ char			*ft_strjoin_gnl(char const *s1, char const *s2);
 
 /* PRINTF */
 int				ft_printf(const char *format, ...);
-int				ft_fprintf(int fd, const char *format, ...);
+int				ft_dprintf(int fd, const char *format, ...);
 void			ft_check_flush(t_buffer *buf_info);
 int				ft_isflag(char c);
 int				ft_isconvert_spec(char c);

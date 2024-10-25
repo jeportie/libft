@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 18:05:57 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/25 12:55:11 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/25 14:25:13 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,7 +97,7 @@ int	ft_printf(const char *format, ...)
 	return (buf_info.nb_printed);
 }
 
-int	ft_fprintf(int fd, const char *format, ...)
+int	ft_dprintf(int fd, const char *format, ...)
 {
 	va_list		args;
 	t_buffer	buf_info;
