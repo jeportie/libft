@@ -6,7 +6,7 @@
 #    By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/20 21:02:39 by jeportie          #+#    #+#              #
-#    Updated: 2024/10/02 08:34:21 by jeportie         ###   ########.fr        #
+#    Updated: 2024/10/25 14:21:13 by jeportie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -94,7 +94,6 @@ SRC = \
   src/printf/ft_handle_binary.c \
   src/printf/ft_handle_hash_flag.c \
   src/printf/ft_printf.c \
-  src/printf/ft_fprintf.c \
   src/printf/ft_handle_hexadecimal.c \
   src/printf/ft_handle_float.c \
   src/printf/ft_handle_pointer.c \
