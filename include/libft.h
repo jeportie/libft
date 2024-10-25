@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 18:59:02 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 09:00:24 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/25 09:16:22 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,10 +82,8 @@ int				ft_nbr_len(unsigned long long nbr, int base_len);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
 
-
 int				ft_memcmp(const void *s1, const void *s2, size_t n);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
-
 
 void			ft_bzero(void *s, size_t n);
 void			*ft_calloc(size_t nmemb, size_t size);
@@ -120,7 +118,6 @@ void			ft_putstr_fd(char *s, int fd);
 void			ft_putendl_fd(char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
 
-
 /* GNL */
 char			*get_next_line(int fd);
 char			*ft_read_buffer(int fd, char *buffer);
@@ -130,7 +127,10 @@ char			*ft_strjoin_gnl(char const *s1, char const *s2);
 
 /* PRINTF */
 int				ft_printf(const char *format, ...);
-int				ft_printf_fd(int fd, const char *format, ...);
+int				ft_fprintf(int fd, const char *format, ...);
+void			ft_check_flush(t_buffer *buf_info);
+static int		ft_process_format_specifier(const char **format, va_list args,
+					t_buffer *buf_info);
 int				ft_isflag(char c);
 int				ft_isconvert_spec(char c);
 t_format_spec	ft_parse_format(const char **format);
