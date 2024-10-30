@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 18:03:39 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 09:10:40 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 14:21:31 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,14 @@
 
 int	ft_buffer_flush(t_buffer *buf_info)
 {
-	int	total_written;
 	int	written;
 
-	total_written = 0;
+	int (total_written) = 0;
+	if (buf_info->buf_fd == -1)
+	{
+		buf_info->index = 0;
+		return (1);
+	}
 	while (total_written < buf_info->index)
 	{
 		written = write(buf_info->buf_fd, &buf_info->buffer[total_written],

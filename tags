@@ -50,7 +50,8 @@ ARCHITECTURE_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	720;"	
 ARCHITECTURE_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	723;"	d	file:
 ARCHITECTURE_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	726;"	d	file:
 ARCHITECTURE_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	730;"	d	file:
-BUFFER_SIZE	include/libft.h	27;"	d
+BUFFER_SIZE	include/libft.h	28;"	d
+BUFFER_SIZE	include/printf.h	27;"	d
 CC	Makefile	/^CC = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
 CMAKE_BINARY_DIR	test_src/Makefile	/^CMAKE_BINARY_DIR = \/root\/projects\/libft\/test_src$/;"	m
@@ -242,15 +243,16 @@ C_VERSION	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	828;"	d	file
 C_VERSION	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	830;"	d	file:
 DEC	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	734;"	d	file:
 EQUALS	test_src/Makefile	/^EQUALS = =$/;"	m
-ERNOFORMAT	include/libft.h	/^	ERNOFORMAT,$/;"	e	enum:e_error
-ERNOMEM	include/libft.h	/^	ERNOMEM,$/;"	e	enum:e_error
-ERNOWRITE	include/libft.h	/^	ERNOWRITE,$/;"	e	enum:e_error
-ERROR	include/libft.h	30;"	d
+ERNOFORMAT	include/printf.h	/^	ERNOFORMAT,$/;"	e	enum:e_error
+ERNOMEM	include/printf.h	/^	ERNOMEM,$/;"	e	enum:e_error
+ERNOWRITE	include/printf.h	/^	ERNOWRITE,$/;"	e	enum:e_error
+ERROR	include/libft.h	31;"	d
+ERROR	include/printf.h	30;"	d
 HEX	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	745;"	d	file:
 ID_VOID_MAIN	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
 LIBFT_H	include/libft.h	14;"	d
 NAME	Makefile	/^NAME = libft.a$/;"	m
-NOERR	include/libft.h	/^	NOERR,$/;"	e	enum:e_error
+NOERR	include/printf.h	/^	NOERR,$/;"	e	enum:e_error
 OBJ	Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
 PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	466;"	d	file:
 PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	469;"	d	file:
@@ -287,6 +289,7 @@ PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	562;"	d	fi
 PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	565;"	d	file:
 PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	569;"	d	file:
 PLATFORM_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	572;"	d	file:
+PRINTF_H	include/printf.h	14;"	d
 RM	test_src/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
 SHELL	test_src/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SIMULATE_ID	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	27;"	d	file:
@@ -362,24 +365,25 @@ START_TEST	test_src/memory/test_ft_memset.c	/^START_TEST(test_zero_length)$/;"	f
 STRINGIFY	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	462;"	d	file:
 STRINGIFY_HELPER	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	461;"	d	file:
 __has_include	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
-buf_fd	include/libft.h	/^	int		buf_fd;$/;"	m	struct:s_buffer
-buf_last	include/libft.h	/^	char	buf_last;$/;"	m	struct:s_buffer
-buffer	include/libft.h	/^	char	*buffer;$/;"	m	struct:s_buffer
+buf_fd	include/printf.h	/^	int		buf_fd;$/;"	m	struct:s_buffer
+buf_last	include/printf.h	/^	char	buf_last;$/;"	m	struct:s_buffer
+buffer	include/printf.h	/^	char	*buffer;$/;"	m	struct:s_buffer
 const	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
-e_error	include/libft.h	/^typedef enum e_error$/;"	g
-error	include/libft.h	/^	int			error;$/;"	m	struct:s_format_spec
-error	include/libft.h	/^	int		error;$/;"	m	struct:s_buffer
-flag_hash	include/libft.h	/^	int			flag_hash;$/;"	m	struct:s_format_spec
-flag_minus	include/libft.h	/^	int			flag_minus;$/;"	m	struct:s_format_spec
-flag_plus	include/libft.h	/^	int			flag_plus;$/;"	m	struct:s_format_spec
-flag_space	include/libft.h	/^	int			flag_space;$/;"	m	struct:s_format_spec
-flag_zero	include/libft.h	/^	int			flag_zero;$/;"	m	struct:s_format_spec
+e_error	include/printf.h	/^typedef enum e_error$/;"	g
+error	include/printf.h	/^	int			error;$/;"	m	struct:s_format_spec
+error	include/printf.h	/^	int		error;$/;"	m	struct:s_buffer
+flag_hash	include/printf.h	/^	int			flag_hash;$/;"	m	struct:s_format_spec
+flag_minus	include/printf.h	/^	int			flag_minus;$/;"	m	struct:s_format_spec
+flag_plus	include/printf.h	/^	int			flag_plus;$/;"	m	struct:s_format_spec
+flag_space	include/printf.h	/^	int			flag_space;$/;"	m	struct:s_format_spec
+flag_zero	include/printf.h	/^	int			flag_zero;$/;"	m	struct:s_format_spec
 ft_apply_precision	src/printf/ft_apply_precision.c	/^void	ft_apply_precision(t_format_spec spec, char **formatted_content)$/;"	f
 ft_apply_width	src/printf/ft_apply_width.c	/^void	ft_apply_width(t_format_spec spec, t_buffer *buf_info, int content_len)$/;"	f
 ft_atoi	src/conversion/ft_atoi.c	/^int	ft_atoi(const char *nptr)$/;"	f
 ft_atol	src/conversion/ft_atol.c	/^long	ft_atol(const char *nptr)$/;"	f
 ft_buffer_add	src/printf/ft_buffer_add.c	/^void	ft_buffer_add(t_buffer *buf_info, char c)$/;"	f
 ft_buffer_flush	src/printf/ft_buffer_flush.c	/^int	ft_buffer_flush(t_buffer *buf_info)$/;"	f
+ft_buffer_help	src/printf/ft_buffer_add.c	/^void	ft_buffer_help(t_buffer *buf_info, char c)$/;"	f
 ft_bzero	src/memory/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
 ft_calloc	src/memory/ft_calloc.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/;"	f
 ft_check_fd	src/utils/ft_check_fd.c	/^void	ft_check_fd(int fd, const char *error_message)$/;"	f
@@ -390,7 +394,7 @@ ft_check_pid	src/utils/ft_check_pid.c	/^void	ft_check_pid(int pid)$/;"	f
 ft_concat_path	src/utils/ft_find_cmd_path.c	/^static char	*ft_concat_path(char **paths, const char *cmd)$/;"	f	file:
 ft_convert_spec	src/printf/ft_printf.c	/^static int	ft_convert_spec(t_format_spec spec, va_list args,$/;"	f	file:
 ft_count_words	src/string/ft_split.c	/^size_t	ft_count_words(char *str, char c)$/;"	f
-ft_dprintf	src/printf/ft_printf.c	/^int	ft_dprintf(int fd, const char *format, ...)$/;"	f
+ft_dprintf	src/printf/ft_dprintf.c	/^int	ft_dprintf(int fd, const char *format, ...)$/;"	f
 ft_extract	src/string/ft_split.c	/^static char	*ft_extract(const char **s, char c, char **tab, size_t i)$/;"	f	file:
 ft_fill_base	src/conversion/ft_ulltoa_base.c	/^static char	*ft_fill_base(unsigned long long nbr, int size, char *base,$/;"	f	file:
 ft_fill_base	src/conversion/ft_utoa_base.c	/^static char	*ft_fill_base(unsigned int nbr, int size, char *base, char *res)$/;"	f	file:
@@ -406,6 +410,7 @@ ft_handle_plus_flag	src/printf/ft_handle_plus_flag.c	/^void	ft_handle_plus_flag(
 ft_handle_pointer	src/printf/ft_handle_pointer.c	/^int	ft_handle_pointer(t_format_spec spec, va_list args, t_buffer *buf_info)$/;"	f
 ft_handle_space_flag	src/printf/ft_handle_space_flag.c	/^void	ft_handle_space_flag(t_format_spec spec, int content,$/;"	f
 ft_handle_string	src/printf/ft_handle_string.c	/^void	ft_handle_string(t_format_spec spec, va_list args, t_buffer *buf_info)$/;"	f
+ft_init	src/printf/ft_snprintf.c	/^static t_buffer	ft_init(t_buffer buf_info, size_t size)$/;"	f	file:
 ft_intlen	src/conversion/ft_itoa.c	/^static size_t	ft_intlen(long n)$/;"	f	file:
 ft_isalnum	src/bool/ft_isalnum.c	/^bool	ft_isalnum(int c)$/;"	f
 ft_isalpha	src/bool/ft_isalpha.c	/^bool	ft_isalpha(int c)$/;"	f
@@ -425,6 +430,7 @@ ft_isspace_suite	test_src/bool/test_ft_isspace.c	/^Suite *ft_isspace_suite(void)
 ft_isxdigit	src/bool/ft_isxdigit.c	/^bool	ft_isxdigit(int c)$/;"	f
 ft_isxdigit_suite	test_src/bool/test_ft_isxdigit.c	/^Suite *ft_isxdigit_suite(void) {$/;"	f
 ft_itoa	src/conversion/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_loop_format	src/printf/ft_snprintf.c	/^static t_buffer	ft_loop_format(const char *format, size_t size, char *str, ...)$/;"	f	file:
 ft_memchr	src/memory/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
 ft_memcmp	src/memory/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
 ft_memcpy	src/memory/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
@@ -440,7 +446,7 @@ ft_prepare_hex_content	src/printf/ft_handle_hexadecimal.c	/^static int	ft_prepar
 ft_prepare_int	src/printf/ft_handle_int.c	/^static int	ft_prepare_int(t_format_spec spec, long long content,$/;"	f	file:
 ft_prepare_pointer	src/printf/ft_handle_pointer.c	/^static int	ft_prepare_pointer(char **adresse, t_buffer *buf_info, void *ptr)$/;"	f	file:
 ft_printf	src/printf/ft_printf.c	/^int	ft_printf(const char *format, ...)$/;"	f
-ft_process_format_specifier	src/printf/ft_printf.c	/^static int	ft_process_format_specifier(const char **format, va_list args,$/;"	f	file:
+ft_process_format_specifier	src/printf/ft_printf.c	/^int	ft_process_format_specifier(const char **format, va_list args,$/;"	f
 ft_process_formatted_hex	src/printf/ft_handle_hexadecimal.c	/^static void	ft_process_formatted_hex(t_format_spec spec, unsigned int content,$/;"	f	file:
 ft_process_int	src/printf/ft_handle_int.c	/^static void	ft_process_int(t_format_spec spec, long long content,$/;"	f	file:
 ft_process_pointer	src/printf/ft_handle_pointer.c	/^static void	ft_process_pointer(t_format_spec spec, char *adresse,$/;"	f	file:
@@ -450,6 +456,7 @@ ft_putendl_fd	src/io/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
 ft_putnbr_fd	src/io/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
 ft_putstr_fd	src/io/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
 ft_realloc	src/memory/ft_realloc.c	/^void	*ft_realloc(void *ptr, size_t old_size, size_t new_size)$/;"	f
+ft_snprintf	src/printf/ft_snprintf.c	/^int	ft_snprintf(char *str, size_t size, const char *format, ...)$/;"	f
 ft_split	src/string/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
 ft_strchr	src/string/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
 ft_strdup	src/string/ft_strdup.c	/^char	*ft_strdup(const char *s)$/;"	f
@@ -473,7 +480,7 @@ ft_utoa_base	src/conversion/ft_utoa_base.c	/^char	*ft_utoa_base(unsigned int nbr
 ft_zero_minus_flags	src/printf/ft_parse_flags.c	/^static void	ft_zero_minus_flags(const char *format, t_format_spec *spec,$/;"	f	file:
 g_perror	src/printf/ft_printf_globals.c	/^const char	*g_perror[] = {$/;"	v
 generate_src_list	update_makefile.sh	/^generate_src_list() {$/;"	f
-index	include/libft.h	/^	int		index;$/;"	m	struct:s_buffer
+index	include/printf.h	/^	int		index;$/;"	m	struct:s_buffer
 info_arch	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
 info_compiler	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
 info_cray	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
@@ -497,15 +504,16 @@ main	test_src/bool/test_ft_isprint.c	/^int main(void) {$/;"	f
 main	test_src/bool/test_ft_isspace.c	/^int main(void) {$/;"	f
 main	test_src/bool/test_ft_isxdigit.c	/^int main(void) {$/;"	f
 main	test_src/memory/test_ft_memset.c	/^int main(void)$/;"	f
+max_size	include/printf.h	/^	size_t	max_size;$/;"	m	struct:s_buffer
 memset_suite	test_src/memory/test_ft_memset.c	/^Suite *memset_suite(void)$/;"	f
-nb_printed	include/libft.h	/^	int		nb_printed;$/;"	m	struct:s_buffer
-precision	include/libft.h	/^	int			precision;$/;"	m	struct:s_format_spec
+nb_printed	include/printf.h	/^	int		nb_printed;$/;"	m	struct:s_buffer
+precision	include/printf.h	/^	int			precision;$/;"	m	struct:s_format_spec
 qnxnto	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
-s_buffer	include/libft.h	/^typedef struct s_buffer$/;"	s
-s_format_spec	include/libft.h	/^typedef struct s_format_spec$/;"	s
-t_buffer	include/libft.h	/^}			t_buffer;$/;"	t	typeref:struct:s_buffer
-t_error	include/libft.h	/^}	t_error;$/;"	t	typeref:enum:e_error
-t_format_spec	include/libft.h	/^}				t_format_spec;$/;"	t	typeref:struct:s_format_spec
-type	include/libft.h	/^	char		type;$/;"	m	struct:s_format_spec
+s_buffer	include/printf.h	/^typedef struct s_buffer$/;"	s
+s_format_spec	include/printf.h	/^typedef struct s_format_spec$/;"	s
+t_buffer	include/printf.h	/^}			t_buffer;$/;"	t	typeref:struct:s_buffer
+t_error	include/printf.h	/^}	t_error;$/;"	t	typeref:enum:e_error
+t_format_spec	include/printf.h	/^}				t_format_spec;$/;"	t	typeref:struct:s_format_spec
+type	include/printf.h	/^	char		type;$/;"	m	struct:s_format_spec
 volatile	test_src/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c	11;"	d	file:
-width	include/libft.h	/^	int			width;$/;"	m	struct:s_format_spec
+width	include/printf.h	/^	int			width;$/;"	m	struct:s_format_spec
