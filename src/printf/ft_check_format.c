@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/26 19:02:54 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 09:10:48 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:37:08 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../../include/printf.h"
 
 int	ft_check_format(t_format_spec *spec)
 {

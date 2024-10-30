@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 11:12:59 by jeportie          #+#    #+#             */
-/*   Updated: 2024/09/30 12:29:10 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:43:01 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,5 @@ char	*ft_find_cmd_path(char **envp, const char *cmd)
 	paths = ft_split(path_env, ':');
 	if (!paths)
 		return (NULL);
-	//gc_nest_register(paths);
-	//gc_nest_lock(paths);
 	return (ft_concat_path(paths, cmd));
 }

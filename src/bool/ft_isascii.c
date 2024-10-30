@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 18:04:15 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 08:49:22 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:46:06 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
  * Check if the char is ASCII
  */
 
-bool ft_isascii(int c)
+bool	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (true);

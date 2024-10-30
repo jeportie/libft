@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 14:56:22 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 09:12:18 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:38:10 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../../include/printf.h"
 
 void	ft_handle_string(t_format_spec spec, va_list args, t_buffer *buf_info)
 {

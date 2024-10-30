@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 18:05:57 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 14:43:58 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:33:26 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	ft_process_format_specifier(const char **format, va_list args,
 	{
 		if (!ft_convert_spec(spec, args, buf_info))
 		{
-			ft_putstr_fd((char *)g_perror[buf_info->error], 2);
+			ft_perror(buf_info->error);
 			return (-1);
 		}
 	}
@@ -66,7 +66,7 @@ void	ft_check_flush(t_buffer *buf_info)
 {
 	if (!ft_buffer_flush(buf_info))
 	{
-		ft_putstr_fd((char *)g_perror[buf_info->error], 2);
+		ft_perror(buf_info->error);
 		buf_info->nb_printed = -1;
 	}
 }

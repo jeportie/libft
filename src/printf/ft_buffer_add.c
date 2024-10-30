@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 18:03:11 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 14:30:05 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:36:50 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../../include/printf.h"
 
 void	ft_buffer_help(t_buffer *buf_info, char c)
 {

@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 18:04:22 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/02 08:49:52 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:45:53 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
  * Check if the char is a digit
  */
 
-bool ft_isdigit(int c)
+bool	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);

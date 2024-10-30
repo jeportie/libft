@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 18:03:39 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 14:21:31 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:37:00 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/libft.h"
+#include "../../include/printf.h"
 
 int	ft_buffer_flush(t_buffer *buf_info)
 {

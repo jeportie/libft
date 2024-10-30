@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/11 10:42:57 by jeportie          #+#    #+#             */
-/*   Updated: 2024/09/30 12:28:48 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:42:48 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ void	ft_check_pid(int pid)
 	if (pid == ERROR)
 	{
 		perror("Forking Error !\n");
-		//gc_cleanup();
 		exit(EXIT_FAILURE);
 	}
 }

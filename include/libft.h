@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 18:59:02 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 14:38:56 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:23:48 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@
 # endif
 
 # define ERROR -1
-
-extern const char	*g_perror[];
 
 /*	BOOL FUNCTIONS */
 bool			ft_isspace(int c);

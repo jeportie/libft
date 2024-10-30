@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 14:35:58 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 14:45:32 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/10/30 15:34:08 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,7 @@ void			ft_check_flush(t_buffer *buf_info);
 int				ft_isflag(char c);
 int				ft_isconvert_spec(char c);
 char			*gc_strjoin(char const *s1, char const *s2);
+void			ft_perror(t_error error);
 
 /* Parse */
 t_format_spec	ft_parse_format(const char **format);
