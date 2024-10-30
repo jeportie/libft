@@ -1,9 +1,0 @@
-test_ft_isalnum 3 0.00427041
-test_ft_isalpha 3 0.00173341
-test_ft_isascii 3 0.00242628
-test_ft_isdigit 3 0.00261152
-test_ft_isprint 3 0.00232756
-test_ft_isspace 3 0.00209556
-test_ft_isxdigit 3 0.00239058
-test_ft_memset 3 0.517734
----
