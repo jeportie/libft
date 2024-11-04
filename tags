@@ -4,10 +4,13 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BONUS	src/get_next_line/tester/Makefile	/^BONUS = get_next_line_utils_bonus.c get_next_line_bonus.c$/;"	m
 BUFFER_SIZE	include/libft.h	28;"	d
 BUFFER_SIZE	include/printf.h	27;"	d
 CC	Makefile	/^CC = gcc$/;"	m
+CC	src/get_next_line/tester/Makefile	/^CC = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
+CFLAGS	src/get_next_line/tester/Makefile	/^CFLAGS = -Wall -Wextra -Werror -I. -g3$/;"	m
 ERNOFORMAT	include/printf.h	/^	ERNOFORMAT,$/;"	e	enum:e_error
 ERNOMEM	include/printf.h	/^	ERNOMEM,$/;"	e	enum:e_error
 ERNOWRITE	include/printf.h	/^	ERNOWRITE,$/;"	e	enum:e_error
@@ -15,10 +18,14 @@ ERROR	include/libft.h	31;"	d
 ERROR	include/printf.h	30;"	d
 LIBFT_H	include/libft.h	14;"	d
 NAME	Makefile	/^NAME = libft.a$/;"	m
+NAME	src/get_next_line/tester/Makefile	/^NAME = libgnl.a$/;"	m
 NOERR	include/printf.h	/^	NOERR,$/;"	e	enum:e_error
 OBJ	Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
+OBJ	src/get_next_line/tester/Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
+OBJB	src/get_next_line/tester/Makefile	/^OBJB = $(BONUS:.c=.o)$/;"	m
 PRINTF_H	include/printf.h	14;"	d
 SRC	Makefile	/^SRC = \\$/;"	m
+SRC	src/get_next_line/tester/Makefile	/^SRC = get_next_line_utils.c get_next_line.c$/;"	m
 buf_fd	include/printf.h	/^	int		buf_fd;$/;"	m	struct:s_buffer
 buf_last	include/printf.h	/^	char	buf_last;$/;"	m	struct:s_buffer
 buffer	include/printf.h	/^	char	*buffer;$/;"	m	struct:s_buffer
@@ -49,6 +56,7 @@ ft_convert_spec	src/printf/ft_printf.c	/^static int	ft_convert_spec(t_format_spe
 ft_count_words	src/string/ft_split.c	/^size_t	ft_count_words(char *str, char c)$/;"	f
 ft_dprintf	src/printf/ft_dprintf.c	/^int	ft_dprintf(int fd, const char *format, ...)$/;"	f
 ft_extract	src/string/ft_split.c	/^static char	*ft_extract(const char **s, char c, char **tab, size_t i)$/;"	f	file:
+ft_extract_line	src/get_next_line/get_next_line.c	/^static char	*ft_extract_line(char *buffer)$/;"	f	file:
 ft_fill_base	src/conversion/ft_ulltoa_base.c	/^static char	*ft_fill_base(unsigned long long nbr, int size, char *base,$/;"	f	file:
 ft_fill_base	src/conversion/ft_utoa_base.c	/^static char	*ft_fill_base(unsigned int nbr, int size, char *base, char *res)$/;"	f	file:
 ft_find_cmd_path	src/utils/ft_find_cmd_path.c	/^char	*ft_find_cmd_path(char **envp, const char *cmd)$/;"	f
@@ -103,6 +111,7 @@ ft_putchar_fd	src/io/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
 ft_putendl_fd	src/io/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
 ft_putnbr_fd	src/io/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
 ft_putstr_fd	src/io/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_read_buffer	src/get_next_line/get_next_line.c	/^static char	*ft_read_buffer(int fd, char *buffer)$/;"	f	file:
 ft_realloc	src/memory/ft_realloc.c	/^void	*ft_realloc(void *ptr, size_t old_size, size_t new_size)$/;"	f
 ft_snprintf	src/printf/ft_snprintf.c	/^int	ft_snprintf(char *str, size_t size, const char *format, ...)$/;"	f
 ft_split	src/string/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
@@ -111,6 +120,7 @@ ft_strdup	src/string/ft_strdup.c	/^char	*ft_strdup(const char *s)$/;"	f
 ft_striteri	src/string/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
 ft_strjoin	src/string/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
 ft_strjoin_free	src/string/ft_strjoin.c	/^char	*ft_strjoin_free(char *s1, const char *s2)$/;"	f
+ft_strjoin_gnl	src/get_next_line/get_next_line.c	/^static char	*ft_strjoin_gnl(char const *s1, char const *s2)$/;"	f	file:
 ft_strlcat	src/string/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t size)$/;"	f
 ft_strlcpy	src/string/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f
 ft_strlen	src/string/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f
@@ -124,10 +134,13 @@ ft_substr_len	src/string/ft_split.c	/^static size_t	ft_substr_len(char *str, cha
 ft_tolower	src/conversion/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
 ft_toupper	src/conversion/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
 ft_ulltoa_base	src/conversion/ft_ulltoa_base.c	/^char	*ft_ulltoa_base(unsigned long long nbr, char *base)$/;"	f
+ft_update_buffer	src/get_next_line/get_next_line.c	/^static char	*ft_update_buffer(char *buffer)$/;"	f	file:
 ft_utoa_base	src/conversion/ft_utoa_base.c	/^char	*ft_utoa_base(unsigned int nbr, char *base)$/;"	f
 ft_zero_minus_flags	src/printf/ft_parse_flags.c	/^static void	ft_zero_minus_flags(const char *format, t_format_spec *spec,$/;"	f	file:
 generate_src_list	update_makefile.sh	/^generate_src_list() {$/;"	f
+get_next_line	src/get_next_line/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
 index	include/printf.h	/^	int		index;$/;"	m	struct:s_buffer
+main	src/get_next_line/tester/main.c	/^int	main(void)$/;"	f
 max_size	include/printf.h	/^	size_t	max_size;$/;"	m	struct:s_buffer
 nb_printed	include/printf.h	/^	int		nb_printed;$/;"	m	struct:s_buffer
 precision	include/printf.h	/^	int			precision;$/;"	m	struct:s_format_spec

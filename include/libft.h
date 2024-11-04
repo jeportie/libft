@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 18:59:02 by jeportie          #+#    #+#             */
-/*   Updated: 2024/10/30 15:23:48 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/11/04 17:29:40 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,10 +88,6 @@ void			ft_putnbr_fd(int n, int fd);
 
 /* GNL */
 char			*get_next_line(int fd);
-char			*ft_read_buffer(int fd, char *buffer);
-char			*ft_extract_line(char *buffer);
-char			*ft_update_buffer(char *buffer);
-char			*ft_strjoin_gnl(char const *s1, char const *s2);
 
 /* UTILITIES */
 

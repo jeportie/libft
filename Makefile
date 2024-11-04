@@ -105,7 +105,8 @@ SRC = \
   src/utils/ft_issorted.c \
   src/utils/ft_path_join.c \
   src/utils/ft_strarr_free.c \
-  src/utils/ft_strarr_len.c 
+  src/utils/ft_strarr_len.c \
+  src/get_next_line/get_next_line.c 
 ### END AUTO GENERATED FILES ###
 
 OBJ = $(SRC:.c=.o)
