@@ -6,7 +6,7 @@
 /*   By: jeportie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 12:37:21 by jeportie          #+#    #+#             */
-/*   Updated: 2024/11/04 17:31:16 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/11/12 18:07:22 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,6 @@ static char	*ft_read_buffer(int fd, char *buffer)
 	return (buffer);
 }
 
-// Function to extract the next line from the buffer.
 static char	*ft_extract_line(char *buffer)
 {
 	size_t	i;
@@ -96,7 +95,6 @@ static char	*ft_extract_line(char *buffer)
 	return (line);
 }
 
-// Function to update the buffer by removing the extracted line.
 static char	*ft_update_buffer(char *buffer)
 {
 	char	*new_buffer;
@@ -128,7 +126,7 @@ char	*get_next_line(int fd)
 	static char	*buffer[FOPEN_MAX];
 	char		*line;
 
-	if (fd < 0 || fd>= FOPEN_MAX || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd >= FOPEN_MAX || BUFFER_SIZE <= 0)
 		return (NULL);
 	buffer[fd] = ft_read_buffer(fd, buffer[fd]);
 	if (!buffer[fd])

@@ -4,13 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-BONUS	src/get_next_line/tester/Makefile	/^BONUS = get_next_line_utils_bonus.c get_next_line_bonus.c$/;"	m
 BUFFER_SIZE	include/libft.h	28;"	d
 BUFFER_SIZE	include/printf.h	27;"	d
 CC	Makefile	/^CC = gcc$/;"	m
-CC	src/get_next_line/tester/Makefile	/^CC = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
-CFLAGS	src/get_next_line/tester/Makefile	/^CFLAGS = -Wall -Wextra -Werror -I. -g3$/;"	m
 ERNOFORMAT	include/printf.h	/^	ERNOFORMAT,$/;"	e	enum:e_error
 ERNOMEM	include/printf.h	/^	ERNOMEM,$/;"	e	enum:e_error
 ERNOWRITE	include/printf.h	/^	ERNOWRITE,$/;"	e	enum:e_error
@@ -18,14 +15,10 @@ ERROR	include/libft.h	31;"	d
 ERROR	include/printf.h	30;"	d
 LIBFT_H	include/libft.h	14;"	d
 NAME	Makefile	/^NAME = libft.a$/;"	m
-NAME	src/get_next_line/tester/Makefile	/^NAME = libgnl.a$/;"	m
 NOERR	include/printf.h	/^	NOERR,$/;"	e	enum:e_error
 OBJ	Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
-OBJ	src/get_next_line/tester/Makefile	/^OBJ = $(SRC:.c=.o)$/;"	m
-OBJB	src/get_next_line/tester/Makefile	/^OBJB = $(BONUS:.c=.o)$/;"	m
 PRINTF_H	include/printf.h	14;"	d
 SRC	Makefile	/^SRC = \\$/;"	m
-SRC	src/get_next_line/tester/Makefile	/^SRC = get_next_line_utils.c get_next_line.c$/;"	m
 buf_fd	include/printf.h	/^	int		buf_fd;$/;"	m	struct:s_buffer
 buf_last	include/printf.h	/^	char	buf_last;$/;"	m	struct:s_buffer
 buffer	include/printf.h	/^	char	*buffer;$/;"	m	struct:s_buffer
@@ -140,7 +133,6 @@ ft_zero_minus_flags	src/printf/ft_parse_flags.c	/^static void	ft_zero_minus_flag
 generate_src_list	update_makefile.sh	/^generate_src_list() {$/;"	f
 get_next_line	src/get_next_line/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
 index	include/printf.h	/^	int		index;$/;"	m	struct:s_buffer
-main	src/get_next_line/tester/main.c	/^int	main(void)$/;"	f
 max_size	include/printf.h	/^	size_t	max_size;$/;"	m	struct:s_buffer
 nb_printed	include/printf.h	/^	int		nb_printed;$/;"	m	struct:s_buffer
 precision	include/printf.h	/^	int			precision;$/;"	m	struct:s_format_spec
