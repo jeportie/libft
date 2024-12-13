@@ -6,7 +6,7 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 14:45:45 by jeportie          #+#    #+#             */
-/*   Updated: 2024/12/13 13:05:08 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/12/13 17:03:16 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_snprintf(char *str, size_t size, const char *format, ...)
 	va_end(args);
 	if (size > 0)
 	{
-		if (buf_info.index < size)
+		if ((size_t)buf_info.index < size)
 			buf_info.buffer[buf_info.index] = '\0';
 		else
 			buf_info.buffer[size - 1] = '\0';
