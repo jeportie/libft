@@ -1,0 +1,20 @@
+Start testing: Dec 13 13:11 UTC
+----------------------------------------------------------
+1/1 Testing: ft_snprintf
+1/1 Test: ft_snprintf
+Command: "/root/projects/minishell/lib/libft/test_src/build/test_ft_snprintf"
+Directory: /root/projects/minishell/lib/libft/test_src/build
+"ft_snprintf" start time: Dec 13 13:11 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): NAME
+100%: Checks: 9, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ft_snprintf" end time: Dec 13 13:11 UTC
+"ft_snprintf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 13 13:11 UTC
