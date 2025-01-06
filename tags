@@ -390,6 +390,7 @@ ft_issign	src/conversion/ft_atol.c	/^static int	ft_issign(int c, int *sign)$/;"	
 ft_isspace	src/bool/ft_isspace.c	/^bool	ft_isspace(int c)$/;"	f
 ft_isxdigit	src/bool/ft_isxdigit.c	/^bool	ft_isxdigit(int c)$/;"	f
 ft_itoa	src/conversion/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_loop_helper	src/printf/ft_snprintf.c	/^static int	ft_loop_helper(const char *format, va_list args, t_buffer *buf_info)$/;"	f	file:
 ft_memchr	src/memory/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
 ft_memcmp	src/memory/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
 ft_memcpy	src/memory/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
