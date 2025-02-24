@@ -1,4 +1,0 @@
-/root/projects/minishell/lib/libft/test_src/build/CMakeFiles/test_ft_snprintf.dir
-/root/projects/minishell/lib/libft/test_src/build/CMakeFiles/test.dir
-/root/projects/minishell/lib/libft/test_src/build/CMakeFiles/edit_cache.dir
-/root/projects/minishell/lib/libft/test_src/build/CMakeFiles/rebuild_cache.dir
